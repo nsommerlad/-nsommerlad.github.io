@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Name of my site-->
+        <title>Noah Bummerlad</title>
+        <!--All my super meta jokes, I mean meta data.-->
+        <meta charset="UTF-8">
+        <meta name="description" content="A Biography for Noah Sommerlad">
+        <meta name="keywords" content="HTML,CSS">
+        <meta name="author" content="Noah Sommerlad">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--Links all my google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto" rel="stylesheet">
+        <center><img src="https://pbs.twimg.com/profile_images/937880119120748546/tCIgV-GS_400x400.jpg" width=200></center>
+        
+        <!--My styles!-->
+     
+        <style>
+        	html, body
+        	{
+        		margin: 0;
+        		padding: 0;
+        		background-color: #323031;
+        	}
+        	
+        	a
+        	{
+        	    color: tomato;
+        	    font-style: none;
+
+        	}
+
+            progress
+            {
+                height: 5px;
+                margin: 0;
+            }
+        	
+            .container
+            {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .text
+            {
+                font-family: 'PT Serif', serif;
+                text-transform: none;
+            }
+            
+            .header
+            {
+                text-align: center;
+                padding: 10px 0;
+                text-transform: uppercase;
+            }
+            
+            .header > h1
+            {
+                margin: 0;
+                text-shadow: 5px 1px #47e3ff;
+            }
+            
+            .header > h1:hover
+            {
+                margin: 0;
+                text-shadow: 5px 1px #6347ff;
+            }
+            
+            .sub
+            {
+                text-align: left;
+                margin-left: 3vw;
+                padding: 10px;
+            }
+            
+            
+            .header > hr
+            {
+                width: 80vw;
+                height: 3px;
+                border: 0;
+                background-color: #F3A712;
+            }
+
+            .header-img
+            {
+                margin: 0 4vw 0 10vw;
+                border: solid 2px;
+                width: 30vw;
+                height: auto;
+                float: left;
+            }
+            
+
+        </style>
+    </head>
+    <body> 
+        <!--Big container div, keeps everything together. Also lets width be 100%-->
+        <div class="container">
+            <!--My first heading, main header.-->
+            <div class="header">
+                <h1>Hello, My name is <a href="http://www.partridgegetslucky.com/" target="_blank" hreflang="en">Noah</a></h1>
+                <hr />
+            </div>
+            <!--My sub header that talks about who I am.-->
+            <div class="header sub">
+                <h2><b>☂ Who?</b></h2>
+                <img src='http://3.bp.blogspot.com/-604W7WTN4GM/U-0oXXQKR0I/AAAAAAAAjAk/yghyGvYCLQk/s1600/The%2BWho.gif' class="header-img" alt="The Who Band">
+                <ul class="text">
+                    <li>Born November 13, 2001</li>
+                    <li>Born in Chicago, IL</li>
+                    <li>Melting pot of Irish, Scottish, Greek, Polish, and English.</li>
+                    <li>Was given the name because it sounded nice.</li>
+                </ul>
+            </div>
+            <br>
+            <!--My subeheader about my schoolin.-->
+            <div class="header sub">
+                <h2>☢ Edjumikation?</h2>
+                <img src='https://media.giphy.com/media/12ZAHepv39FmiA/giphy.gif' class="header-img" alt="Trsut mez Imz Smurt">
+                <ul class="text">
+                    <li>I attended Andrew Jackson Language Acacdemy, which is just across the bridge from WY</li>
+                    <li>My family likes to vacation in Hawaii</li>
+                    <li>I've played soccer since I've been old enough to walk </li>
+                 
+                
+                </ul>
+            </div>
+            <br>
+            <!--THE FUTURE! Stuff about my future.-->
+            <div class="header sub">
+                <h2><i>☊ Future!?</i> <br/> </h2>
+               
+                <img src="https://m.popkey.co/6bd661/4M6M1_s-200x150.gif" class="header-img" alt="OH BOY!" align="middle">
+                <ul class="text">
+                    <p class="text">
+                        <li>I've no idea where I want to go to college</li>
+                        <li>I've always wanted a job that required me to travel- it's my favroite thing to do</li>
+                        <li>I really want to go to Europe</li>
+                          </ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <!--THE FUTURE! Stuff about my future.-->
+            <div class="header sub">
+                <h2><i>☁︎ More about me</i> <br/></h2>
+               
+                <img src="https://media.giphy.com/media/NoCbUpxL1qzCw/giphy." class="header-img" alt="not interested!" align="middle">
+                <ul class="text">
+                    <p class="text">
+                        <li>The 3 adjectives I used to descibe myself are smart, short, and funny. I feek these describe me pretty well.</li>
+                        <li>My favorite subject is English because I like to write.</li>
+                        <li>I play soccer in/out of school.</li>
+                                    </div>
+            <br>
+            <!--THE FUTURE! Stuff about my future.-->
+            <div class="header sub">
+                <h2><i>✍️Goals</i> <br/  ></h2>
+               
+                <img src="https://media.giphy.com/media/81tyWdH6HR1uM/giphy.gif" class="header-img" alt="not interested!" align="middle">
+                <ul class="text">
+                    <p class="text">
+                        <li>One physical goal I have for myself this year is to get to 5'7". I will probably not achieve this goal.</li>
+                        <li>An emotional goal I have this year is to be more open to people. I will achieve this by saying what I'm thinking more.</li>
+                        <li>One social goal I have for this year is to hang with my friends more. I will achieve this by    hanging with my friend more.</li>
+                        
+                   
+                   </p>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
